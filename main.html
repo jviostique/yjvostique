@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>My Autobiography</title>
+<body>
+<style>
+.block-menu { 
+}
+
+.block-menu li {
+	display: inline-block;
+}
+
+.block-menu li a {
+	color: #FFD700;
+	display: block;
+	text-decoration: none;
+	font-family: copperplate gothic light;
+	font-smoothing: antialiased;
+	text-transform: uppercase;
+	overflow: visible;
+	line-height: 20px;
+	font-size: 28px;
+	padding: 15px 30px;
+}
+.three-d {
+	perspective: 200px;
+	transition: all .07s linear;
+	position: relative;
+	cursor: pointer;
+}
+	.three-d:hover .three-d-box, 
+	.three-d:focus .three-d-box {
+		transform: translateZ(-25px) rotateX(90deg);
+	}
+
+
+.front {
+	transform: rotatex(0deg) translatez(25px);
+}
+
+.back {
+	transform: rotatex(-90deg) translatez(25px);
+	color: #ffe7c4;
+}
+
+.front, .back {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #f96e5b;
+	padding: 15px 10px;
+	color: black;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+body{
+background: url('mainbg.jpg') no-repeat;
+background-size:cover;
+}
+</style>
+<center>
+<ul class="block-menu"> 
+		</a></li>
+
+	<li><a href="2.5.html" class="three-d">
+		About Me
+
+	<li><a href="2.html" class="three-d">
+		Hobbies
+	
+	</a></li>
+	<li><a href="1.html" class="three-d">
+		Friends
+			
+	</a></li>
+	<li><a href="3.html" class="three-d">
+		Idols
+	
+		
+			
+	</a></li>
+	<li><a href="http://www.rvmonline.net/ndrvmcc/" class="three-d">
+		RVM Website
+		
+			
+	</a></li>
+	<li><a href="4.html" class="three-d">
+		Contacts
+		
+			
+	</a></li>
+	</center>
+</ul>
+</body>
+</html>
